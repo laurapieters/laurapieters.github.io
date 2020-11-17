@@ -1,0 +1,137 @@
+* {
+    outline: none;
+}
+
+h1 {
+    color: #323d4f;
+    text-align: center;
+    font-family: "Courier New";
+}
+
+button {
+    font-family: "Courier New";
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+
+#background {
+    text-align: center;
+    background-color: white;
+}
+
+#addToDo {
+    height: 25px;
+    font-family: "Courier New";
+    border-radius: 40px;
+    text-align: center;
+    background-color: #d3b4a2;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    border: none;
+    color: #323d4f;
+}
+
+#addToDo:hover {
+    color: white;
+}
+
+#ToDo {
+    color: #323d4f;
+    font-family: "Courier New";
+    background-color: #9eb4a7;
+    text-align: center;
+    width: 600px;
+    height: auto;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: center;
+    overflow: hidden;
+}
+
+#finishedToDo {
+    font-weight: bold;
+    color: #323d4f;
+    font-family: "Courier New";
+    text-align: center;
+    text-decoration: line-through;
+    width: 550px;
+    display: inline-block;
+}
+
+#VButton {
+    background-color: white;
+    color: #323d4f;
+    font-family: "Courier New";
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    position: relative;
+    right: 5px;
+    transition: all 0.2s;
+}
+
+#XButton {
+    background-color: white;
+    color: #323d4f;
+    font-family: "Courier New";
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    position: relative;
+    left: 5px;
+    margin-left: 0px;
+    top: auto;
+    transition: all 0.2s;
+}
+
+#XButton:hover{
+    color: white;
+    background-color: #9eb4a7;
+}
+
+#VButton:hover{
+    color: white;
+    background-color: #9eb4a7;
+}
+
+#ToDoText{
+    color: #323d4f;
+    font-family: "Courier New";
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 550px;
+    display: inline-block;
+}
+
+#inputText{
+    background-color: #d3b4a2;
+    color: #323d4f;
+    font-family: "Courier New";
+    width: 270px;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4px;
+}
+
+#inputTextBlock{
+    background-color: #d3b4a2;
+    width: 300px;
+    border-radius: 25px;
+    height: 25px;
+    border: none;
+    left:20px;
+    display: inline-block;
+    position: center;
+}
