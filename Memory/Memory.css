@@ -1,0 +1,53 @@
+* {
+    outline: none;
+}
+
+h1 {
+    font-family: Brush Script MT;
+    font-size: 50px;
+    text-align: center;
+    color: #8e0906;
+    margin: 5px 0px;
+}
+
+#message {
+    font-family: Gabriola;
+    font-size: 20px;
+    background-color: #ffd99b;
+    width: 300px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    display: inline-block;
+    color: #8e0906;
+    margin-right: 10px;
+}
+
+/*#nrOfTurns {*/
+/*    width: 200px;*/
+/*    font-family: Gabriola;*/
+/*    font-size: 20px;*/
+/*    background-color: #ffd99b;*/
+/*    padding: 2px 5px;*/
+/*    border-radius: 10px;*/
+/*    display: inline-block;*/
+/*    color: #8e0906*/
+/*}*/
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    background-color: #df826f;
+    border: none;
+}
+
+#background {
+    text-align: center;
+}
+
+#board {
+    text-align: center;
+}
