@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: #281a2b;
+    margin-top: 40px;
+}
+
+* {
+    outline: none;
+}
+
+img.jewel {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+img.jewel:hover {
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#clicked{
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+}
